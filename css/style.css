@@ -1,4 +1,4 @@
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     font-family: 'Montserrat';
 }
 
@@ -125,7 +125,7 @@ p#heroBody {
 }
 
 
-li, p.headerFooter, p#headerFooter {
+p.headerFooter, p#headerFooter {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -133,6 +133,16 @@ li, p.headerFooter, p#headerFooter {
     color: white;
     list-style: none;
 }
+
+.headerItems {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    list-style: none;
+}
+
 
 h3{
     font-family: 'Montserrat';
@@ -144,6 +154,16 @@ h3{
     align-items: flex-end;
     padding-left: 12px;
     padding-right: 12px;
+}
+
+h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 32px;
+    font-weight: 700;
+    font-size: 32px;
+    margin-block-start: 0px !important;
+    margin-block-end: 0px !important;
 }
 
 .cardText {
@@ -172,6 +192,112 @@ div.footerText {
     padding-left: 2px;
 }
 
+.contactModal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+    position: relative;
+    width: 800px;
+    height: auto;
+
+    background: #FFFFFF;
+    border: 2px solid #0E2D46;
+    border-radius: 15px;
+}
+.modalEntry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    padding: 0px;
+    gap: 21px;
+}
+
+.modalText {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+hr {
+    background-color: black;
+    width: 98%;
+    height: 2px;
+    text-align: center;
+    border: 0px;
+}
+
+textarea {
+    box-sizing: border-box;
+
+    width: 579px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.modalButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+}
+
+.contactButtonClose {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 0px;
+    
+    background: #A0A0A0;
+    border: 2px solid #003F6B;
+    border-radius: 15px;
+
+    width: 368px;
+    height: 72px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.contactButtonSend {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 0px;
+
+    background: #0985F8;
+    border: 2px solid #003F6B;
+    border-radius: 15px;
+
+    width: 368px;
+    height: 72px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
 
 @media only screen and (max-width: 600px) {
     .flexContainer{
